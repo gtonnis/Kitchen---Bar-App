@@ -4,6 +4,10 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  
+  
+}
 img {
   width: 100%;
   height: 100%;
@@ -16,18 +20,19 @@ html {
 
 h1{
   color: #999999;
-    text-shadow: 4px 4px black;
+    text-shadow: 3px 3px black;
     text-decoration: underline; 
+    text-decoration-color:  #b22222;
 }
 h2{
     text-shadow: 1px 1px black;
     text-decoration: underline;
-    text-decoration-color:  #4d4d4d;
+    text-decoration-color: #282828;
 }
 h3{
   color: #999999;
   text-align: center;
-  text-shadow: 3px 3px black;
+  text-shadow: 2px 2px black;
   font-size: 3rem;
   margin: 15px;
 }
@@ -39,7 +44,8 @@ section {
   align-items: center;
   justify-content: center;
   padding: 100px 0;
-  background: linear-gradient(to top right, #ff0000 27%, #b22222 58%);
+  background-color: #282828;
+  /* background: linear-gradient(to top right, #ff0000 27%, #b22222 58%); */
   
 }
 .container {
@@ -48,6 +54,7 @@ section {
   max-width: 1000px;
   margin: auto;
   padding: 0;
+  
   
 }
 .title {
@@ -58,7 +65,7 @@ section {
 
 
 #input-box {
-    width: 100%;
+  width: 100%;
   padding: 10px;
   border: ridge;
   border-color: #4d4d4d;
@@ -72,13 +79,21 @@ button{
   color: white;
   background-color: red;
   border-style: ridge;
-  border-color: #4d4d4d;
-    text-shadow: 2px 2px black;
-padding: 8px;
-font-size: 15px;
+  border-radius: 45%;
+  border-color: black;
+  text-shadow: 1px 1px black;
+  padding: 8px;
+  font-size: 15px;
   cursor: pointer;
   float:right;
   margin: 20px;
+}
+
+button:hover {
+  background-color: silver;
+  color: red;
+  border-color: red;
+    /* border-radius: 30px; */
 }
 
 ::placeholder{
@@ -105,16 +120,17 @@ form ion-icon {
 .item {
   width: 100%;
   border-radius: 8px;
-  background-color:  #dc5539;
+  background: linear-gradient(to top right, #ff0000 27%, #b22222 58%);
+  /* background-color:  #dc5539; */
   padding: 15px;
   overflow: hidden;
-  box-shadow: 2px 2px #4d4d4d;
+  box-shadow: 2px 2px #696969;
 }
 .item img {
   width: 100%;
   height: 300px;
   border-radius: 4px;
-  box-shadow: 3px 3px crimson;
+  box-shadow: 3px 3px #282828;
 }
 .flex-container {
   display: flex;
@@ -133,15 +149,25 @@ form ion-icon {
   text-align: center;
   width: 130px;
   padding: 10px 0;
-  background-color: crimson;
+  background-color: #282828;
   color: white;
   font-size: 1.4rem;
   font-weight: 600;
   margin-top: 20px;
   border-style: ridge;
-  border-color: #4d4d4d;
+  border-radius: 45%;
+  border-color: silver;
   align-self: flex-start;
 }
+
+ a:hover {
+  background-color: white;
+  color: #282828;
+  border-color: #282828;
+    /* border-radius: 30px; */
+}
+
+
 .item-data {
   color: white;
   display: block;
@@ -180,7 +206,7 @@ form ion-icon {
 
 .footer{
   text-align: left;
-  color:white;
+  color: #DCDCDC;
   margin: auto;
-  text-shadow: 1px 1px #4d4d4d;
+  text-shadow: 1px 1px dimgray;
 }
