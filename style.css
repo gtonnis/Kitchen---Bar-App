@@ -19,8 +19,8 @@ html {
 }
 
 h1{
-  color: #999999;
-    text-shadow: 3px 3px black;
+  color: silver;
+    text-shadow: 3px 3px #b22222;
     text-decoration: underline; 
     text-decoration-color:  #b22222;
 }
@@ -30,12 +30,13 @@ h2{
     text-decoration-color: #282828;
 }
 h3{
-  color: #999999;
+  color: silver;
   text-align: center;
-  text-shadow: 2px 2px black;
+  text-shadow: 2px 2px #b22222;
   font-size: 3rem;
   margin: 15px;
 }
+
 
 section {
   min-height: 100vh;
