@@ -78,7 +78,7 @@ section {
 
 button{
   color: white;
-  background-color: red;
+  background-color: navy;
   border-radius: 45%;
   text-shadow: 1px 1px black;
   padding: 8px;
@@ -90,7 +90,7 @@ button{
 }
 
 button:hover {
-  background-color: silver;
+  background-color: blue;
   color: red;
 }
 
@@ -118,7 +118,7 @@ form ion-icon {
 .item {
   width: 100%;
   border-radius: 8px;
-  background: linear-gradient(to top right, #ff0000 27%, #b22222 58%);
+  background: linear-gradient(to top right, navy 27%, blue 58%);
   /* background-color:  #dc5539; */
   padding: 15px;
   overflow: hidden;
