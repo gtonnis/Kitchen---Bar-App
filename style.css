@@ -92,7 +92,7 @@ button{
 }
 
 button:hover {
-  background-color: #00abe4;
+  background-color: #a9c8eb;;
   
 }
 
@@ -109,6 +109,7 @@ form ion-icon {
   float: right;
   color: #e9f1fa;
   display: inline-block;
+   box-shadow: 2px 2px #a9c8eb;
 }
 .search-result {
   margin-top: 50px;
@@ -123,7 +124,7 @@ form ion-icon {
   background-color: #00abe4; 
   padding: 15px;
   overflow: hidden;
-  box-shadow: 2px 2px #e9f1fa;
+  box-shadow: 2px 2px #a9c8eb;
 }
 .item img {
   width: 100%;
@@ -160,7 +161,7 @@ form ion-icon {
 
  a:hover {
   background-color: #ffffff;
-  color:  #00abe4;
+  color:  #a9c8eb;
 }
 
 
@@ -204,5 +205,5 @@ form ion-icon {
   text-align: left;
   color:  #00abe4;
   margin: auto;
-  text-shadow: 1px 1px #e9f1fa;
+  text-shadow: 1px 1px navy;
 }
