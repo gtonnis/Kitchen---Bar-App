@@ -45,6 +45,8 @@ section {
   align-items: center;
   justify-content: center;
   padding: 100px 0;
+  background-color: ghostwhite;
+    box-shadow:black;
  
   /* background: linear-gradient(to top right, #ff0000 27%, #b22222 58%); */
   
@@ -55,7 +57,7 @@ section {
   max-width: 1000px;
   margin: auto;
   padding: 0;
-   background-color: ghostwhite;
+   
   
 }
 .title {
