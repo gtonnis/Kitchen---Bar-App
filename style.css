@@ -154,7 +154,7 @@ form ion-icon {
   margin-top: 20px;
   border-radius: 40%;
   align-self: flex-start;
-  box-shadow: 1px 1px red;
+  box-shadow: 1px 1px blue;
 }
 
  a:hover {
