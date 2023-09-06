@@ -22,12 +22,12 @@ h1{
   color: #00abe4;
     text-shadow: 3px 3px #e9f1fa;
     text-decoration: underline; 
-    text-decoration-color:  #ffffff;
+    text-decoration-color:  #00abe4;
 }
 h2{
     text-shadow: 1px 1px  #e9f1fa;
     text-decoration: underline;
-    text-decoration-color: #ffffff;
+    text-decoration-color: #00abe4;
 }
 h3{
   color: #00abe4;
@@ -80,7 +80,7 @@ section {
 
 button{
   color: white;
-  background-color: #00abe4;
+  background-color:  #e9f1fa;
   border-radius: 45%;
   text-shadow: 1px 1px #00abe4;
   padding: 8px;
@@ -97,7 +97,7 @@ button:hover {
 }
 
 ::placeholder{
-  color: blue;
+  color: #00abe4;
   opacity: 10;
   text-shadow: 1px 1px #e9f1fa;
 }
@@ -123,7 +123,7 @@ form ion-icon {
   background-color: #00abe4; 
   padding: 15px;
   overflow: hidden;
-  box-shadow: 2px 2px #00abe4;
+  box-shadow: 2px 2px #e9f1fa;
 }
 .item img {
   width: 100%;
