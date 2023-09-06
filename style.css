@@ -19,20 +19,20 @@ html {
 }
 
 h1{
-  color: black;
-    text-shadow: 3px 3px navy;
+  color: #00abe4;
+    text-shadow: 3px 3px #e9f1fa;
     text-decoration: underline; 
     text-decoration-color:  blue;
 }
 h2{
-    text-shadow: 1px 1px black;
+    text-shadow: 1px 1px  #e9f1fa;
     text-decoration: underline;
     text-decoration-color: blue;
 }
 h3{
-  color: black;
+  color: #00abe4;
   text-align: center;
-  text-shadow: 2px 2px blue;
+ /* text-shadow: 2px 2px blue;*/
   font-size: 3rem;
   margin: 15px;
 }
@@ -45,7 +45,7 @@ section {
   align-items: center;
   justify-content: center;
   padding: 100px 0;
-  background-color: ghost white;
+  background-color: #e9f1fa;
   box-shadow:  3px 3px black;
  
   /* background: linear-gradient(to top right, #ff0000 27%, #b22222 58%); */
@@ -73,33 +73,33 @@ section {
   padding: 10px;
   font-size: 2rem;
   margin: 30px 0px 0px 10px;
-  background-color: white;
+  background-color: #ffffff;
   display:block;
-  box-shadow: 1px 1px navy;
+  box-shadow: 1px 1px #00abe4;
 }
 
 button{
   color: white;
-  background-color: navy;
+  background-color: #00abe4;
   border-radius: 45%;
-  text-shadow: 1px 1px blue;
+  text-shadow: 1px 1px #00abe4;
   padding: 8px;
   font-size: 15px;
   cursor: pointer;
   float:right;
   margin: 20px;
-  box-shadow: 1px 1px black;
+  box-shadow: 1px 1px #00abe4;
 }
 
 button:hover {
-  background-color: blue;
+  background-color: #e9f1fa;
   color: light blue;
 }
 
 ::placeholder{
   color: blue;
   opacity: 10;
-  text-shadow: 1px 1px navy;
+  text-shadow: 1px 1px #e9f1fa;
 }
 form ion-icon {
   margin-top: -45px;
@@ -120,17 +120,17 @@ form ion-icon {
 .item {
   width: 100%;
   border-radius: 8px;
-  background: linear-gradient(to top right, navy 27%, blue 58%);
+  background: linear-gradient(to top right, #e9f1fa 27%, #00abe4 58%);
   /* background-color:  #dc5539; */
   padding: 15px;
   overflow: hidden;
-  box-shadow: 2px 2px navy;
+  box-shadow: 2px 2px #00abe4;
 }
 .item img {
   width: 100%;
   height: 300px;
   border-radius: 4px;
-  box-shadow: 3px 3px navy;
+  box-shadow: 3px 3px #00abe4;
 }
 .flex-container {
   display: flex;
@@ -149,14 +149,14 @@ form ion-icon {
   text-align: center;
   width: 130px;
   padding: 10px 0;
-  background-color: blue;
+  background-color: #00abe4;
   color: white;
   font-size: 1.4rem;
   font-weight: 600;
   margin-top: 20px;
   border-radius: 40%;
   align-self: flex-start;
-  box-shadow: 1px 1px navy;
+  box-shadow: 1px 1px #e9f1fa;
 }
 
  a:hover {
@@ -172,7 +172,7 @@ form ion-icon {
   font-size: 1.4rem;
   letter-spacing: 0.05rem;
   line-height: 2rem;
-  text-shadow: 0.5px 0.5px navy;
+  text-shadow: 0.5px 0.5px #e9f1fa;
 }
 .container .brand {
   font-size: 7rem;
@@ -205,5 +205,5 @@ form ion-icon {
   text-align: left;
   color: blue;
   margin: auto;
-  text-shadow: 1px 1px navy;
+  text-shadow: 1px 1px #e9f1fa;
 }
