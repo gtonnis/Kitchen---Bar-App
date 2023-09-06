@@ -20,14 +20,14 @@ html {
 
 h1{
   color: black;
-    text-shadow: 3px 3px #b22222;
+    text-shadow: 3px 3px navy;
     text-decoration: underline; 
-    text-decoration-color:  #b22222;
+    text-decoration-color:  navy;
 }
 h2{
     text-shadow: 1px 1px black;
     text-decoration: underline;
-    text-decoration-color: #282828;
+    text-decoration-color: navy;
 }
 h3{
   color: black;
@@ -73,7 +73,7 @@ section {
   margin: 30px 0px 0px 10px;
   background-color: white;
   display:block;
-  box-shadow: 1px 1px #b22222;
+  box-shadow: 1px 1px navy;
 }
 
 button{
@@ -95,7 +95,7 @@ button:hover {
 }
 
 ::placeholder{
-  color: #dc5539;
+  color: navy;
   opacity: 10;
   text-shadow: 1px 1px #4d4d4d;
 }
@@ -128,7 +128,7 @@ form ion-icon {
   width: 100%;
   height: 300px;
   border-radius: 4px;
-  box-shadow: 3px 3px #282828;
+  box-shadow: 3px 3px navy;
 }
 .flex-container {
   display: flex;
@@ -147,7 +147,7 @@ form ion-icon {
   text-align: center;
   width: 130px;
   padding: 10px 0;
-  background-color: #282828;
+  background-color: navy;
   color: white;
   font-size: 1.4rem;
   font-weight: 600;
@@ -159,7 +159,7 @@ form ion-icon {
 
  a:hover {
   background-color: white;
-  color: #282828;
+  color: navy;
 }
 
 
