@@ -22,12 +22,12 @@ h1{
   color: #00abe4;
     text-shadow: 3px 3px #e9f1fa;
     text-decoration: underline; 
-    text-decoration-color:  blue;
+    text-decoration-color:  #ffffff;
 }
 h2{
     text-shadow: 1px 1px  #e9f1fa;
     text-decoration: underline;
-    text-decoration-color: blue;
+    text-decoration-color: #ffffff;
 }
 h3{
   color: #00abe4;
@@ -64,7 +64,7 @@ section {
   text-align: center;
   color: white;
   margin-bottom: 30px;
-   box-shadow:black;
+   box-shadow: navy;
 }
 
 
@@ -93,7 +93,7 @@ button{
 
 button:hover {
   background-color: #e9f1fa;
-  color: light blue;
+  
 }
 
 ::placeholder{
@@ -107,7 +107,7 @@ form ion-icon {
   width: 8%;
   font-size: 3rem;
   float: right;
-  color: navy;
+  color: #e9f1fa;
   display: inline-block;
 }
 .search-result {
@@ -120,8 +120,7 @@ form ion-icon {
 .item {
   width: 100%;
   border-radius: 8px;
-  background: linear-gradient(to top right, #e9f1fa 27%, #00abe4 58%);
-  /* background-color:  #dc5539; */
+  background-color: #00abe4; 
   padding: 15px;
   overflow: hidden;
   box-shadow: 2px 2px #00abe4;
@@ -160,8 +159,8 @@ form ion-icon {
 }
 
  a:hover {
-  background-color: white;
-  color: navy;
+  background-color: #ffffff;
+  color:  #00abe4;
 }
 
 
@@ -203,7 +202,7 @@ form ion-icon {
 
 .footer{
   text-align: left;
-  color: blue;
+  color:  #00abe4;
   margin: auto;
   text-shadow: 1px 1px #e9f1fa;
 }
